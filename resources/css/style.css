@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+/* ----------------------------------------------- */
+/*                COLOR PALETTE                    */
+/* ----------------------------------------------- */
+
+
+/* ----------------------------------------------- */
+/*                GLOBAL COMPONENTS                */
+/* ----------------------------------------------- */
+
+body {
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+} 
+
+/* ----------------------------------------------- */
+/*                     HEADINGS                    */
+/* ----------------------------------------------- */
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.06rem;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 1.88rem;
+  line-height: 3.13rem;
+}
+
+/* ----------------------------------------------- */
+/*                    HEADER                       */
+/* ----------------------------------------------- */
+
+.hero {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./keyboard-mobile2.jpg); 
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32.5rem;
+  letter-spacing: 0.04%;
+}
+
+.profile-pic {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  left: 5rem;
+  top: 12.5rem;
+  border-radius: 50%;
+  z-index: 1;
+  border: 1.5px solid #fff;
+}
+
+.nav-container {
+  position: absolute;
+  display: inline-flex;
+  flex-direction: row;
+  padding: 0.19rem;
+  width: 8.16rem;
+  height: 2.5rem;
+  left: 12.8rem;
+  top: 3rem;
+}
+
+.social-icon {
+  width: 3rem;
+  height: auto;
+  padding: 0.19rem;
+}
+
+.hero-text {
+  position: absolute;
+  width: 13.75rem;
+  height: 18.88rem;
+  left: 1.5rem;
+  bottom: 12.5rem;
+  color: #fff;
+}
+
+.portfolio-name {  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.13rem;
+  letter-spacing: 0.04em;
+  padding-bottom: 0.8rem;
+}
+
+/* ----------------------------------------------- */
+/*                SUMMARY SECTION                  */
+/* ----------------------------------------------- */
+
+/* ----------------------------------------------- */
+/*                  TECH SECTION                   */
+/* ----------------------------------------------- */
+
+/* ----------------------------------------------- */
+/*                FEATURED PROJECTS                */
+/* ----------------------------------------------- */
+
+/* ----------------------------------------------- */
+/*                 OTHER PROJECTS                  */
+/* ----------------------------------------------- */
+
+/* ----------------------------------------------- */
+/*                THOUGHTS SECTION                 */
+/* ----------------------------------------------- */
+
+/* ----------------------------------------------- */
+/*                SKILLS SECTION                   */
+/* ----------------------------------------------- */
+
+/* ----------------------------------------------- */
+/*               MORE INFO SECTION                 */
+/* ----------------------------------------------- */
+
+/* ----------------------------------------------- */
+/*                     FOOTER                      */
+/* ----------------------------------------------- */
+
+/* ----------------------------------------------- */
+/*                  MEDIA QUERIES                  */
+/* ----------------------------------------------- */
+
+@media only screen and (min-width: 1024px) {
+  .hero {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./keyboard_desktop.jpg); 
+    height: 42.56rem
+  }
+}
