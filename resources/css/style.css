@@ -198,9 +198,7 @@ h2 {
 }
 
 .hero-text {
-  bottom: 20rem;
   color: #fff;
-  height: 8rem;
   left: 1.5rem;
   position: absolute;
   width: 13.75rem;
@@ -243,17 +241,98 @@ h2 {
 /*                THOUGHTS SECTION                 */
 /* ----------------------------------------------- */
 
+.thoughts-description {
+  display: inline-block;
+  padding: 1rem 1.5rem 2rem;
+}
+
+.thoughts-description em {
+  color: #0078AE;
+  font-style: normal;
+  font-family: 'Roboto';
+}
+
+.thoughts-description a {
+  color: #000;
+}
+
+.thoughts-text {
+  font-size: 14px;
+}
+
 /* ----------------------------------------------- */
 /*                SKILLS SECTION                   */
 /* ----------------------------------------------- */
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  align-items: stretch;
+  padding: 1rem;
+}
+
+.skills-heading {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-size: 17px;
+  font-weight: bold;
+  color: #0078AE;
+}
 
 /* ----------------------------------------------- */
 /*               MORE INFO SECTION                 */
 /* ----------------------------------------------- */
 
+.social-media-more {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  align-items: stretch;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}
+
+.social-icon-more {
+  filter: invert(42%) sepia(71%) saturate(6111%) hue-rotate(179deg) brightness(87%) contrast(101%);
+  width: 4rem;
+  height: auto;
+}
+
 /* ----------------------------------------------- */
 /*                     FOOTER                      */
 /* ----------------------------------------------- */
+
+footer {
+  width: 100%;
+  background: #010D26;
+  text-align: center;
+}
+
+.contact {
+  height: 150px;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.footer-subheading {
+  color: #fff;
+  font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+.contact-info {
+  font-family: 'Montserrat';
+  color: #fff;
+  list-style: none;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.contact-info a {
+  color: #fff;
+}
 
 /* ----------------------------------------------- */
 /*                  MEDIA QUERIES                  */
