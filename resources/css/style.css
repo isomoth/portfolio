@@ -95,7 +95,7 @@ h2 {
 .overlay {
   /* Fallback color */
   background-color: #1c1c1d;
-  background-color: rgba(26, 26, 27, 0.5);
+  background-color: rgba(5, 5, 5, 0.699);
   bottom: 0;
 	left: 0;
   position: absolute;
