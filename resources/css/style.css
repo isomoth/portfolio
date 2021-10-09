@@ -50,14 +50,11 @@ h2 {
   width: 320px;
 }
 
-.article {
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
+.portfolio-article {
+  padding: 1rem;
 }
 
 .portfolio-heading-container {
-  display: -ms-flexbox;
-	display: -webkit-box;
 	display: flex;
 	justify-content: center;
 }
@@ -97,8 +94,8 @@ h2 {
 
 .overlay {
   /* Fallback color */
-  background-color: #9ca6c5;
-  background-color: rgba(156, 166, 197, 0.5);
+  background-color: #1c1c1d;
+  background-color: rgba(26, 26, 27, 0.5);
   bottom: 0;
 	left: 0;
   position: absolute;
@@ -111,17 +108,36 @@ h2 {
 	width: 100%;
 }
 
+.project-title-container {
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  text-transform: uppercase;
+  text-justify: center;
+}
+
+.portfolio-link {
+  text-decoration: none;
+  color: #fff;
+}
+
 .project-heading {
   text-transform: uppercase;
   margin-bottom: 1rem;
   font-size: 17px;
   font-weight: bold;
+  color: #0078AE;
 }
 
 .project-description {
   font-family: 'Roboto';
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.5rem 2rem;
   font-weight: 400;
+  color: #000;
 }
 
 .tag-container {
@@ -254,4 +270,9 @@ h2 {
           justify-content: center;
     width: 100%;
   }
+  
+.portfolio-article:hover {
+  box-shadow: 0 0 0 10px #31ace6;
+  transition: ease;
+}
 }
