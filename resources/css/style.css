@@ -3,7 +3,7 @@
 /* ----------------------------------------------- */
 /* 
 
-Blue: #31ace6 
+Blue: #0078AE 
 Lighter blue: #00C4E7
 
 */
@@ -95,7 +95,7 @@ h2 {
 .overlay {
   /* Fallback color */
   background-color: #1c1c1d;
-  background-color: rgba(5, 5, 5, 0.699);
+  background-color: rgba(5, 5, 5, 0.712);
   bottom: 0;
 	left: 0;
   position: absolute;
@@ -115,9 +115,9 @@ h2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
   text-transform: uppercase;
   text-justify: center;
+  font-size: 16px;
 }
 
 .portfolio-link {
@@ -228,6 +228,16 @@ h2 {
 /* ----------------------------------------------- */
 /*                 OTHER PROJECTS                  */
 /* ----------------------------------------------- */
+
+.portfolio-subheading {
+  color:#0078AE;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 3px;
+	text-align: center;
+	text-transform: uppercase;
+}
 
 /* ----------------------------------------------- */
 /*                THOUGHTS SECTION                 */
