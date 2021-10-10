@@ -6,8 +6,6 @@
 Blue: #0078AE 
 Lighter blue: #00C4E7
 
-*/
-
 /* ----------------------------------------------- */
 /*                GLOBAL COMPONENTS                */
 /* ----------------------------------------------- */
@@ -153,6 +151,9 @@ h2 {
 /*                FEATURED PROJECTS                */
 /* ----------------------------------------------- */
 
+.articles-container {
+  margin: 0 auto;
+}
 
 .image-container {
 	position: relative;
@@ -369,7 +370,7 @@ footer {
 /*                  MEDIA QUERIES                  */
 /* ----------------------------------------------- */
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
   .hero-text {
     left: 10rem;
@@ -387,10 +388,18 @@ footer {
     float: right;
     left: 9.5rem;
   }
+
 	.container {
     margin: 0 auto;
 		width: 31.25rem;
 	}
+
+  .articles-container {
+    margin: 0 auto;
+		width: 31.25rem;
+	}
+
+
   .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -415,21 +424,94 @@ footer {
 }
 
 }
-/*
+
 @media only screen and (min-width: 1024px) {
+
   .hero {
-    align-items: center;
-    background-attachment: fixed;
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./keyboard_desktop.jpg); 
-    background-position: center center;
-    background-size: cover;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 32.5rem;
-          justify-content: center;
-    width: 100%;
   }
 
+  .hero-text {
+    left: 14.5rem;
+    width: 13.75rem;
+  }
+
+  .nav-container {
+    float: right;
+    left: 38.5rem;
+  }
+
+  .profile-pic {
+    float: right;
+    left: 12rem;
+  }
+
+  .container {
+    margin: 0 auto;
+		width: 60%;
+	}
+
+  .articles-container {
+    display:grid;
+    margin: 0 auto;
+		width: 60%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+    grid-auto-rows: 1fr
+	}
+
+  .main-thoughts-article {
+    width: 50%;
+    margin: auto;
+  }
+
+  .thoughts-article {
+    width: 60%;
+    margin: auto;
+  }
+
+  .skills-grid {
+    width: 60%;
+    margin: auto;
+  }
 }
-} */
+
+@media only screen and (min-width: 1280px) {
+    
+  .hero-text {
+    left: 18rem;
+    position: absolute;
+    width: 13.75rem;
+  }
+
+  .nav-container {
+    float: right;
+    left: 52rem;
+    top: 5rem;
+  }
+
+ .profile-pic {
+    float: right;
+    left: 17rem;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+    
+  .hero-text {
+    left: 25rem;
+    position: absolute;
+    width: 13.75rem;
+  }
+
+  .nav-container {
+    float: right;
+    left: 83rem;
+    top: 5rem;
+  }
+
+ .profile-pic {
+    float: right;
+    left: 28.5rem;
+  }
+}
