@@ -1,3 +1,11 @@
+body {
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  width: 100%;
+} 
+
 /* ----------------------------------------------- */
 /*                COLOR PALETTE                    */
 /* ----------------------------------------------- */
@@ -6,17 +14,6 @@
 Blue: #0078AE 
 Lighter blue: #00C4E7
 
-/* ----------------------------------------------- */
-/*                GLOBAL COMPONENTS                */
-/* ----------------------------------------------- */
-
-body {
-  background-color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  margin: 0;
-  width: 100%;
-} 
 
 /* ----------------------------------------------- */
 /*                     HEADINGS                    */
