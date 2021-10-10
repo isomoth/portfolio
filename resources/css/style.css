@@ -473,6 +473,7 @@ footer {
   }
 }
 
+
 @media only screen and (min-width: 1280px) {
     
   .hero-text {
@@ -490,6 +491,26 @@ footer {
  .profile-pic {
     float: right;
     left: 17rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+    
+  .hero-text {
+    left: 19rem;
+    position: absolute;
+    width: 13.75rem;
+  }
+
+  .nav-container {
+    float: right;
+    left: 59.5rem;
+    top: 5rem;
+  }
+
+ .profile-pic {
+    float: right;
+    left: 20rem;
   }
 }
 
