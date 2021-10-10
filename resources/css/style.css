@@ -93,10 +93,6 @@ h2 {
   top: 12.5rem;
   width: 10rem;
   z-index: 1;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 }
 
 .nav-container {
@@ -228,6 +224,21 @@ h2 {
 	text-transform: uppercase;
 } 
 
+.other-project-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.other-project-link:hover {
+  text-decoration: underline;
+  color: #0078AE;
+}
+
+.other-project-link em {
+  text-decoration: none;
+  color: #0078AE;
+}
+
 /* ----------------------------------------------- */
 /*                THOUGHTS SECTION                 */
 /* ----------------------------------------------- */
@@ -247,7 +258,7 @@ h2 {
 
 .thoughts-description {
   display: inline-block;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.5rem 3rem;
 }
 
 .thoughts-description em {
@@ -310,6 +321,7 @@ h2 {
   align-items: stretch;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2rem;
   padding: 2rem;
 }
 
@@ -356,14 +368,54 @@ footer {
 /* ----------------------------------------------- */
 /*                  MEDIA QUERIES                  */
 /* ----------------------------------------------- */
-/* 
+
 @media (min-width: 768px) {
+
+  .hero-text {
+    left: 10rem;
+    position: absolute;
+    width: 13.75rem;
+  }
+
+  .nav-container {
+    float: right;
+    left: 28rem;
+    top: 5rem;
+  }
+ 
+  .profile-pic {
+    float: right;
+    left: 9.5rem;
+  }
 	.container {
     margin: 0 auto;
-		width: 768px;
+		width: 31.25rem;
 	}
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    align-items:stretch; 
+    justify-items: center;
+    padding: 0 0 3rem;
+    width: 272px;
+    margin: 0 1.5rem 2rem;
+  }
+
+  .social-media-more {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  align-items: stretch;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  justify-items: center;
 }
 
+}
+/*
 @media only screen and (min-width: 1024px) {
   .hero {
     align-items: center;
@@ -378,9 +430,6 @@ footer {
           justify-content: center;
     width: 100%;
   }
-  
-.portfolio-article:hover {
-  box-shadow: 0 0 0 10px #31ace6;
-  transition: ease;
+
 }
 } */
