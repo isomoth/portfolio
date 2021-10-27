@@ -202,7 +202,11 @@ h2 {
   margin-bottom: 1rem;
   font-size: 17px;
   font-weight: bold;
-  color: #023852;
+  color: var(--tertiary);
+}
+
+.project-netlify {
+  color: var(--tertiary);
 }
 
 .project-description {
